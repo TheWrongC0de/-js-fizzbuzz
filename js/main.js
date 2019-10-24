@@ -14,6 +14,8 @@ for (var i = 1; i <=100; i++){
   }
   else if (i % 5 == 0) {
    console.log("Buzz");
+
   }
-  document.getElementById('buzz').innerHTML = "<li>" + i[i] + "</li>";
+  console.log(i);
+  document.getElementById('buzz').innerHTML += "<li>" + i + "</li>";
 }
