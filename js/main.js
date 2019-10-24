@@ -4,15 +4,16 @@
 //Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 //stampo numeri da 1 a 100
-for (var i = 0; i <=100; i++){
+for (var i = 1; i <=100; i++){
   console.log(i);
-  if (i * 3 = "Fizz"){
-    console.log(i);
+  if (i % 3 == 0 && i % 5 == 0){
+    console.log("FizzBuzz");
   }
-  if else (i * 5 = 'Buzz') {
-    console.log(i);
+  else if (i % 3 == 0) {
+    console.log("Fizz");
   }
-  else {
-
+  else if (i % 5 == 0) {
+   console.log("Buzz");
   }
+  document.getElementById('buzz').innerHTML = "<li>" + i[i] + "</li>";
 }
