@@ -9,4 +9,10 @@ for (var i = 0; i <=100; i++){
   if (i * 3 = "Fizz"){
     console.log(i);
   }
+  if else (i * 5 = 'Buzz') {
+    console.log(i);
+  }
+  else {
+
+  }
 }
